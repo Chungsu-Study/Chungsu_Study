@@ -1,0 +1,18 @@
+.list-text {
+  color: #000;
+
+  /* IntroduceSubtitle-bold */
+  font-family: NanumSquareOTF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  .list-info-frame {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
