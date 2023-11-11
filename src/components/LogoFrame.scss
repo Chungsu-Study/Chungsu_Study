@@ -1,0 +1,95 @@
+@font-face {
+    font-family : '나눔스퀘어otf-Bold';
+    src : url(./fonts/NanumSquareOTF_acB.otf)
+}
+
+
+.logo-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Instagram{
+    width: 35px;
+    height: 35px;
+}
+
+.Gimalday{
+    color: #939393;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo-top{
+    display: flex;
+    padding: 4px 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+.logo-bottom{
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.logo-teacher{
+    display: flex;
+    height: 30px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    background: #39ACFF;
+}
+
+.logo-announce{
+    display: flex;
+    height: 30px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    background: #58B9FF;
+}
+
+.logo-school{
+    display: flex;
+    height: 30px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;    
+    flex: 1 0 0;
+    background: #73C4FF;
+}
+
+.logo-credit{
+    display: flex;
+    height: 30px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    background: #88CDFF;
+}
+
+.Main-bold{
+    color: #FFF;
+
+    /* Main-bold */
+    font-family: '나눔스퀘어otf-Bold';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
