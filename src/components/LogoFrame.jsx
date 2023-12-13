@@ -1,6 +1,6 @@
 import React from "react";
-import icon from '../assets/icon.png'
-import Instagram from '../assets/Instagram.png'
+import icon from '../assets/icon.png';
+import Instagram from '../assets/Instagram.png';
 import './LogoFrame.scss';
 
 function LogoFrame() {

@@ -1,5 +1,6 @@
 import React from "react";
-import elipse from '../assets/Ellipse 19.svg'
+import elipse from '../assets/Ellipse 19.svg';
+import Miri from '../assets/miri.png';
 import './List.scss';
 
 
@@ -18,9 +19,7 @@ function List() {
             </div>
           </div>
           <div className="list-explain-frame">
-            <div className="list-explain-TestVideo">
-              <div className="list-explain-TestVideo-text">미리보기</div>
-            </div>
+            <img src={Miri} alt="Miri" className="Miri"></img>
             <div className="list-explain-discription">
               <div className="list-explain-discription-text">책임원칙을 책임지는 기말고사 완벽 대비 강의 <br></br>[범위:불법행위를 억제할 수 있는 책임원칙]</div>
             </div>
