@@ -14,13 +14,13 @@ function LogoFrame() {
       <Link to='/'><img src={icon} alt="test" className="Icon"></img></Link>
       <div className="logo-bottom">
         <div className="logo-teacher">
-          <a href="https://youtube.com/" className="Main-bold">선생님</a>
+          <Link to='/teachers' className="Main-bold">선생님</Link>
         </div>
         <div className="logo-announce">
-          <a href="https://youtube.com/" className="Main-bold">공지</a>
+          <a href="http://www.ccs.caehs.kr/boardCnts/list.do?boardID=120235&m=0201&s=ccs" className="Main-bold">공지</a>
         </div>
         <div className="logo-school">
-          <a href="https://youtube.com/" className="Main-bold">학교소식</a>
+          <a href="http://www.ccs.caehs.kr/boardCnts/list.do?boardID=120236&m=0202&s=ccs" className="Main-bold">학교소식</a>
         </div>
         <div className="logo-credit">
           <a href="https://youtube.com/" className="Main-bold">크레딧</a>
