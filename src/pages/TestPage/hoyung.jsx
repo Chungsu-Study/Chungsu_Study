@@ -1,5 +1,5 @@
 import LogoFrame from "../../components/LogoFrame";
-import List from "../../components/List";
+import List6 from "../../components/List6";
 import HoyungMain from "../../components/hoyungMain";
 import './hoyung.scss';
 
@@ -9,7 +9,7 @@ function hoyung() {
     <div className="hoyung-highest-main">
       <LogoFrame></LogoFrame>
       <HoyungMain></HoyungMain>
-      <List></List>
+      <List6></List6>
     </div>
   );
 }

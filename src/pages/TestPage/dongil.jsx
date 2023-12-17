@@ -1,5 +1,5 @@
 import LogoFrame from "../../components/LogoFrame";
-import List from "../../components/List";
+import List1 from "../../components/List1";
 import DongilMain from "../../components/dongilMain";
 import './dongil.scss';
 
@@ -9,7 +9,7 @@ function dongil() {
     <div className="dongil-highest-main">
       <LogoFrame></LogoFrame>
       <DongilMain></DongilMain>
-      <List></List>
+      <List1></List1>
     </div>
   );
 }

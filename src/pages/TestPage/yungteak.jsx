@@ -1,5 +1,5 @@
 import LogoFrame from "../../components/LogoFrame";
-import List from "../../components/List";
+import List5 from "../../components/List5";
 import YungteakMain from "../../components/yungteakMain";
 import './yungteak.scss';
 
@@ -9,7 +9,7 @@ function yungteak() {
     <div className="yungteak-highest-main">
       <LogoFrame></LogoFrame>
       <YungteakMain></YungteakMain>
-      <List></List>
+      <List5></List5>
     </div>
   );
 }

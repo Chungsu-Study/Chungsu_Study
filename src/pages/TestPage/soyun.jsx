@@ -1,5 +1,5 @@
 import LogoFrame from "../../components/LogoFrame";
-import List from "../../components/List";
+import List8 from "../../components/List8";
 import SoyunMain from "../../components/soyunMain";
 import './soyun.scss';
 
@@ -9,7 +9,7 @@ function soyun() {
     <div className="soyun-highest-main">
       <LogoFrame></LogoFrame>
       <SoyunMain></SoyunMain>
-      <List></List>
+      <List8></List8>
     </div>
   );
 }

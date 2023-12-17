@@ -1,5 +1,5 @@
 import LogoFrame from "../../components/LogoFrame";
-import List from "../../components/List";
+import List7 from "../../components/List7";
 import LisunMain from "../../components/lisunMain";
 import './lisun.scss';
 
@@ -9,7 +9,7 @@ function lisun() {
     <div className="lisun-highest-main">
       <LogoFrame></LogoFrame>
       <LisunMain></LisunMain>
-      <List></List>
+      <List7></List7>
     </div>
   );
 }

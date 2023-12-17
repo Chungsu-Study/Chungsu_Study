@@ -1,5 +1,5 @@
 import LogoFrame from "../../components/LogoFrame";
-import List from "../../components/List";
+import List4 from "../../components/List4";
 import SunghunMain from "../../components/sunghunMain";
 import './sunghun.scss';
 
@@ -9,7 +9,7 @@ function sunghun() {
     <div className="sunghun-highest-main">
       <LogoFrame></LogoFrame>
       <SunghunMain></SunghunMain>
-      <List></List>
+      <List4></List4>
     </div>
   );
 }

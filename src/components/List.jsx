@@ -2,13 +2,14 @@ import React from "react";
 import elipse from '../assets/Ellipse 19.svg';
 import Miri from '../assets/miri.png';
 import './List.scss';
+import { Link } from 'react-router-dom';
 
 
 function List() {
   return (
     <div className="list-frame">
       <div className="list-text">강의 목록</div>
-      <div className="list-button">
+      <Link to='/video0' className="list-button">
         <div className="list-components">
           <div className="list-info-frame">
             <div className="list-info-elipse-frame">
@@ -21,11 +22,11 @@ function List() {
           <div className="list-explain-frame">
             <img src={Miri} alt="Miri" className="Miri"></img>
             <div className="list-explain-discription">
-              <div className="list-explain-discription-text">책임원칙을 책임지는 기말고사 완벽 대비 강의 <br></br>[범위:불법행위를 억제할 수 있는 책임원칙]</div>
+              <div className="list-explain-discription-text">책임원칙을 책임지는 기말고사 완벽 대비 강의 <br></br>[강희진]</div>
             </div>
           </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

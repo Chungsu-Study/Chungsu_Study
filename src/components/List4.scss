@@ -1,32 +1,4 @@
-@font-face {
-  font-family : '나눔스퀘어otf-Regular';
-  src : url(./fonts/NanumSquareOTF_acR.otf)
-}
-
-.list-frame{
-  display: flex;
-  height: 400px;
-  padding: 21px 32px 41px 32px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 15px;
-  border-radius: 20px;
-  background: var(--White, #FFF);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.list-text {
-  color: #000;
-
-  /* IntroduceSubtitle-bold */
-  font-family: '나눔스퀘어otf-Regular';
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.list-button{
+.list-button4{
   display: flex;
   padding-right: 132px;
   flex-direction: column;
@@ -35,89 +7,9 @@
   flex: 1 0 0;
   align-self: stretch;
   border-radius: 30px;
-  background: #30348C;
+  background: #7DD7BE;
+  transition: all 0.2s linear;
 }
-
-.list-components{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  flex: 1 0 0;
-}
-
-
-.list-info-frame {
-  display: flex;
-  padding: 16px 0px 7px 20px;
-  align-items: center;
-  gap: 10px;
-  align-self: stretch;
-}
-
-.list-info-elipse-frame{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  
-  .list-info-elipse{
-    width: 27px;
-    height: 27px;
-  }
-}
-
-
-.list-info-subtitle-frame{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  .list-info-subtitle{
-    color: #FFF;
-
-    /* Teacherplay-regular */
-    font-family: '나눔스퀘어otf-Regular';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-}
-
-.list-explain-frame{
-  display: flex;
-  padding-left: 76px;
-  align-items: flex-start;
-  gap: 9px;
-  align-self: stretch;
-}
-
-.list-explain-TestVideo{
-  display: flex;
-  padding: 101px 128px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  align-self: stretch;
-  border-radius: 20px;
-  background: #363636;
-}
-
-.list-explain-discription{
-  display: flex;
-  padding-left: 59px;
-  align-items: center;
-  gap: 8px;
-  align-self: stretch;
-
-  .list-explain-discription-text{
-    color: #FFF;
-
-    /* IntroduceComment-regular */
-    font-family: '나눔스퀘어otf-Regular';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
+.list-button4:hover{
+  transform: scale(1.02);
 }

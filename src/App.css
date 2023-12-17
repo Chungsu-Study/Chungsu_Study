@@ -1,14 +1,4 @@
-@keyframes fadein {
-  from {
-      opacity: 0;
-  }
-  to {
-      opacity: 1;
-  }
-}
-
 .App {
   background: #6B8C9F;
   transition: all 1s;
-  animation: fadein 1s;
 }

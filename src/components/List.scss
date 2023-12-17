@@ -3,6 +3,10 @@
   src : url(./fonts/NanumSquareOTF_acR.otf)
 }
 
+.list-button:hover{
+  transform: scale(1.02);
+}
+
 .list-frame{
   display: flex;
   height: 400px;
@@ -35,7 +39,8 @@
   flex: 1 0 0;
   align-self: stretch;
   border-radius: 30px;
-  background: #30348C;
+  background: #3d4075;
+  transition: all 0.2s linear;
 }
 
 .list-components{
